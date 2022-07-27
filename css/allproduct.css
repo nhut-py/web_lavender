@@ -1,0 +1,30 @@
+* {margin: 0px ;
+padding: 0px;}
+a{display: block;}
+table, th, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+  }
+  th{width: 150px;padding: 5px 5px;}
+  td{padding: 3px 5px;
+box-sizing: border-box;}
+  img{width: 100%;
+height: 100%;}
+  .img_sp{
+      width: 50px;
+      height: 130px;
+  }
+  .btn{padding: 10px 20px; color: white;cursor: pointer;
+    border-radius: 5px; outline: none;border: none; margin: 0px 10px;}
+    .btn:hover{background-color: rgb(53, 86, 187);}
+  .btn_sua{background-color: rgb(101, 184, 101);}
+  .btn_xoa{background-color: red;}
+  .btn_them{
+    background-color: rgb(11, 158, 84);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .float_right{float: right;}

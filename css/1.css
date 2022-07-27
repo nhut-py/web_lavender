@@ -1,0 +1,459 @@
+* {margin:0;padding: 0;}
+
+
+
+@font-face {
+    font-family:RobotoCondensed-Regular;
+    src: url(../font/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto_light;
+    src: url(../font/RobotoCondensed-Light.ttf);
+}
+@font-face {
+    font-family: Roboto_bold;
+    src: url(../font/RobotoCondensed-Bold.ttf);
+}
+.container{
+width: 1170px;
+margin: 0px auto;}
+.wraper{
+    width: 100%;
+    font-family: RobotoCondensed-Regular;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+ul li{list-style: none;}
+a{
+display: block;
+text-decoration: none;}
+
+
+/* css cho header */
+header{
+    width: 100%;
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    height: 121px;
+    transition: 0.4s;
+    background-color: #ffffff;
+}
+.logo{width: 170px;
+    float: left;margin: 25px 40px 25px 0px;}
+nav ul{display: flex;}
+nav ul li a{ 
+    font-family: RobotoCondensed-Regular;
+    font-size: 20px;
+    color: #111111;
+    }
+nav ul li{
+    padding: 50px 25px; 
+}
+nav ul li:last-child{
+    padding: 50px 0px;
+}
+nav ul li:nth-child(5){
+    padding-right: 165px;
+}
+
+/* ảnh banner */
+.banner{
+    height: 550px;
+}
+
+/* css phần intro sale lựa chọn */
+.intro ul{display: flex;}
+.intro ul li{
+    
+width: 375px;
+    
+margin: 53px 15px;
+    
+}
+
+.intro ul li:first-child {
+    margin-left: 0px;
+}
+
+.intro ul li:last-child {
+    margin-right: 0px;
+}
+.btn_intro{
+    float: left;
+    padding: 21px 50px;
+    width: 304px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: #ffffff;
+    /* text-transform: uppercase;*/
+} 
+.icon{
+    width: 66px;
+    float: left;
+    height: 63px;
+    padding: 21px;
+    box-sizing: border-box;
+    }
+.icon i{
+    font-size: 20px;
+    color: white;
+    }
+/* css cho background từng mục */
+.bg1{background-color: #c97278;}
+.ic1{
+    background-color: #b4666c;
+}
+.bg2{background-color: #c0ab90;}
+.ic2{
+    background-color: #ac9981;
+}
+.bg3{background-color: #7f8fa0;}
+.ic3{
+    background-color: #728090;
+}
+
+/* css cho title main */
+.title{
+    padding: 60px;
+    text-align: center;
+    font-size: 34px;
+    font-family: Roboto_light;
+}
+
+/* col1 */
+.col1{margin-bottom: 50px;
+position: relative;}
+.col2{margin-bottom: 50px;}
+
+
+/* css cho nút slide */
+.all_nut {
+    position: absolute;
+    width: 100%;
+    top:51%;
+    z-index: 11;
+}
+.nut_trai{
+    float: left;
+    left: -2%;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.nut_phai{float: right;
+    right: -2%;
+    position: absolute;
+    cursor: pointer;}
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product li{
+    width: 276px;
+    border: 1px solid #7f8fa0;
+    text-align: center;
+    margin:  7px 7px;
+}
+.title_product{
+    font-family: RobotoCondensed-Regular;
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.price_product{
+    font-size: 18px;
+    color: #b74851;
+    font-weight: 700;
+    
+}
+.price_del {
+    text-decoration: line-through;
+    color: #7f8fa0;
+    margin-left: 10px;
+    font-size:14px ;
+}
+.btn_product{
+    font-family: Roboto_bold;
+    font-size: 14px;
+    padding: 15px 44px;
+    border-radius: 20px;
+    border: none;
+    color: #444444;
+    background-color: #eeeeee;
+    margin: 15px;
+}
+
+/* css cho col3 */
+.col3{margin-bottom: 50px;}
+.col3_list_hot{
+    display: flex;
+}
+.col3_list_hot li{width: 30%;
+margin: 15px;}
+.col3_list_hot .title_product{
+    font-family: Roboto_bold;
+    font-size: 20px;
+}
+.img_hot{width: 100%;
+height: 255px;}
+.content_product{
+    font-family: Roboto_light;
+    font-size: 16px;
+}
+/* col4 đăng ký khuyến mãi */
+.col4{
+    background-image: url(../images/perfume.jpg);
+    height: 414px;
+    padding: 84px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+.col4 h3{
+    font-size: 34px;
+}
+.col4 p{
+    margin: 32px 0px 52px;
+    font-size: 14px;
+    font-family: Roboto_light;
+}
+
+
+#input_dk{
+    /* background: blue; */
+    /* padding: 20px; */
+    width: 50%;
+    margin: 0px auto;
+  }
+  
+ #input_dk input {
+    display: block;
+    float: left;
+    padding: 10px 40px;
+    border: 2px solid white;
+  }
+
+input[type="text"] {
+    width: 67.8%;
+    background: none;
+    border-right: 0px !important;
+    color: black;
+}
+
+input[type="submit"] {
+    color: white;
+    font-weight: 700;
+    border-left: none !important;
+    background: #35aec0;
+    cursor: pointer;
+}
+
+
+/* css phần footer */
+footer{
+    height: 395px;
+    background-color: #1b1b1b;
+    padding: 80px 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto_light;
+}
+footer .colum1 {
+    width: 375px;
+    float: left;
+}
+footer .colum1 p{
+    clear: both;
+}
+.colum2{
+    margin-left: 50px;
+}
+footer .colum2,.colum3 {
+    width: 225px;
+    float: left;
+}
+.colum2 h3, .colum3 h3,.colum4{
+    padding: 25px 0px;
+    font-size: 28px;
+}
+footer .colum4 {
+    width: 292px;
+    float: left;
+}
+footer a{color: white;
+padding: 5px 0px;}
+
+
+
+.danh_muc{background-color: #e9e9e9;
+margin-bottom: 46px;}
+.danh_muc ul {display: flex;}
+.danh_muc ul li a{ color: #222222;}
+.danh_muc ul li{padding: 15px 15px;}
+.danh_muc ul li:first-child{padding-left: 0px;padding-right: 10px;}
+
+
+
+
+/* làm phần list chuyển trang */
+.list_page ul{display: flex;
+    margin: 30px 0px;
+}
+.list_page ul li{background-color: none;
+border: 1px solid #dedede;
+
+
+margin: 3px ;}
+.list_page ul li a{color: black;padding: 5px 10px;}
+.page_active{background-color: #222222;}
+.page_active>a{color: white !important;}
+
+
+
+
+/* lauout 2 cột */
+
+/* css xử lý hiệu ứng hover  */
+/* 1 hover vào ảnh sản phẩm */
+.product li{overflow: hidden;}
+.img_product {position: relative;
+height: 369px;
+overflow: hidden;}
+
+.xem_them {display: none;}
+.xem_them a{padding: 5px 10px;
+    border: 2px solid white;
+    background: none;
+    position:absolute;
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    color: white;
+    z-index: 10;
+    animation: chuyendong 0.5s forwards ;
+    /* transform-origin: 0px 10px; */
+    
+}
+.nen_den {
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #111111;
+    z-index: 9;
+}
+/*  hiệu ứng chuyển động khi hover vào ảnh sản phẩm */
+
+
+
+
+
+.img_product:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.img_product:hover .xem_them{
+    display: block;
+transition: 0.5s;}
+
+    .img_product:hover a{
+        color: white;}
+
+/* hiệu ứng thêm hover vào giỏ hàng */
+.btn_product:hover{
+    background-color: rgb(146, 63, 63);
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+/* ul li:hover */
+ul li:hover a{color: #a3a3a3;}
+#input_dk input[type="submit"]:hover {
+    background: #9be6f1;
+}
+
+/* video{width: 100%;} */
+.video{width: 100%;
+margin: 20px 0px 30px;}
+
+/* display:block */
+.ps_fixed{
+    /* position: fixed; */
+    width: 100%;
+    z-index: 999999;
+    height: 87px;
+    transition: 0.4s;
+    
+}
+.ps_fixed li{
+    transition: 0.4s;
+    padding: 35px 25px;
+}
+.ps_fixed li:last-child{
+    transition: 0.4s;
+    padding: 35px 0px;
+}
+.ps_fixed .logo{
+    transition: 0.4s;
+    margin: 10px 40px 15px 0px;
+}
+
+/* padding */
+.padding_121{
+    padding: 121px 0px;
+}
+.mg_top{
+    margin-top: 121px;
+}
+.btn-admin{
+    font-family: Roboto_bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+  
+    color: #444444;
+    background-color: #eeeeee;
+    margin: 15px;
+
+}
+nav {position: relative;}
+.account {
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: row;
+    background: #e9e9e9;
+    display: flex;
+    border-radius: 0px 0px 0px 10px;
+        
+}
+    .account a{
+        color:rgb(39, 39, 39);
+        padding:7px 7px;
+        font-size: 15px;}
+
+
+        .li_tb{
+            position: relative;
+        }
+        .thong_bao{
+            position: absolute;
+            z-index: 99;
+            top: 30%;
+            right:-15px ;
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+            padding: 3px 7px;
+            font-size: 12px;
+        }

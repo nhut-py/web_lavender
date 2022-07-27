@@ -1,0 +1,96 @@
+.tin_xuHuong{
+    display: flex;
+    height: 214px;
+    padding: 20px 0px;
+}
+
+.anh_tin{
+    width: 353px;
+    margin-right: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+.anh_tin:hover img {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.noidung_tin{
+    width: 446px;
+    margin-left: 12px;
+
+}
+.noidung_tin h3{
+    font-size: 24px;
+    color: black;
+}
+.noidung_tin h3:hover {
+    color: #a19f9f;
+}
+.noidung_tin .date{
+    padding: 15px 0px 20px;
+    font-size: 13px;color:#b2b2b2;
+    font-family: Roboto_light;
+}
+.noidung_short{
+    color:#b2b2b2;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* xu huonhgws */
+.bai_viet p{
+    padding: 20px 0px;
+    color: #747474;
+    font-size: 16px;
+}
+
+/*  */
+
+.detail_sp {
+    display: flex;
+}
+.detail_img{
+    width: 350px;
+    margin-right: 15px;
+    height: 412px;
+}
+.detail_nd{
+    margin-left: 15px;
+    width: 432px;
+}
+.detail_nd h3{font-size: 28px;}
+.code_sp,.detail_ndct{
+    padding: 15px 0px;
+    color:#c0c0c0;
+}
+.detail_ndct{padding-top: 35px;
+padding-bottom: 50px;}
+.detail_soLuong input{
+    padding: 5px 10px;
+    width: 50px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.add_cart{
+    background-color: #029900;
+    color: white;
+}
+.buy_now{
+    background-color: #e60f1e;
+    color: white;
+}
+/* csss cho thông tin sản phẩm */
+.info_sanPham {margin-top: 25px;
+margin-bottom: 15px;
+border-bottom: 1px solid gray;
+padding: 10px 0px;
+}
+.info_sanPham p{padding: 10px 20px;
+display:inline;
+
+color: white;
+background-color: grey;}

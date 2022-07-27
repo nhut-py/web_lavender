@@ -1,0 +1,71 @@
+/* sử dụng layout 2 cột cho những trang sản phầm, danh mục vv */
+.main{display: flex;}
+article{
+    width: 830px;
+    min-width: 600px;
+   
+    margin-right: 15px;
+}
+
+aside{
+    width: 307px;
+   
+    margin-left: 15px;
+}
+aside a{color: #333333;
+font-family: Roboto_bold;}
+.aside_widget{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #333333;
+}
+.aside_widget h3{
+    padding: 17px 15px;
+    background-color: #283943;
+    color: white;
+}
+.aside_widget ul li{
+    padding: 15px 17px;
+    border-bottom: 1px solid #333333;
+}
+.aside_widget ul li:last-child{
+    border: none;
+}
+.danh_muc_active{
+    
+    border-bottom: 1px solid #d5be00 !important;
+}
+.danh_muc_active a{
+    color: #d5be00;
+}
+.banner_qc{margin-bottom: 50px;}
+
+
+
+/* danh mục bán chạy */
+.ban_chay li{display: flex;}
+aside .anh{
+    width: 71px;
+    height: 103px;
+}
+aside .thong_tin{
+    width: 184px;
+    margin-left: 10px;}
+aside .thong_tin> .title_product{
+    font-size: 14px;
+    margin: 0px;
+}
+aside .thong_tin> .price_product{
+    color: #df4949;
+}
+.detail{
+    text-decoration: underline;
+    color: #22839b;
+    padding: 17px 0px 3px;
+}
+a.thay_doi{
+display: inline-block;
+float:right;
+color: rgb(13, 92, 182);
+font-size: 13px;
+text-decoration: none;}

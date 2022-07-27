@@ -1,0 +1,109 @@
+
+.gio_hang{
+
+    display: flex;
+    
+    column-count: 4;
+    
+    flex-direction: row;
+    
+    column-gap: 15px;
+    
+    align-items: center;
+    margin-bottom: 25px;
+    
+    }
+        .img_hang{
+        width: 150px;
+        height: 160px;
+        }
+        .name_hang{width: 260px;}
+        .length_hang input{
+            width: 30px;
+            padding: 5px;
+        }
+        .length_hang span{
+            padding: 4px 10px;
+            cursor: pointer;
+            border: 1px solid gray;
+            margin-bottom: 5px;
+            border-radius: 3px;
+        }
+    
+        .price_hang{
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .price_hang p{color: black;
+        font-weight: bold;}
+
+
+        /* css cho thanh toán side bar */
+    
+
+    /*  css cho bài Bảng Bán Hàng  */
+    
+    /* .ban-hang {width: 600px; margin:0px auto;position: relative;} */
+    .thanh-tien{
+        margin: 15px 10px;
+        /* width: 100%; */
+        box-sizing: border-box;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    .thanh-toan{
+        width: 100%;
+        background-color: #bebebe;
+        padding: 20px;
+        border-radius: 5px;
+        color: white;
+        margin: 5px 0px;
+        box-sizing: border-box;
+    }
+    .title-thanhtoan{
+        color: rgb(255 255 255);
+    }
+    
+    .giaTien{
+        color: rgb(254, 56, 52);
+        font-size: 22px;
+        font-weight: 400;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        float: right;
+    }
+    .thanh-tien .bt-thanhtoan{
+        padding: 15px;
+        margin: 10px 0px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: rgb(255, 66, 78);
+        color: white;
+        border: 0px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .thanh-tien .bt-thanhtoan:hover{
+        background-color: rgb(226, 27, 24);
+    }
+    
+    
+    .ban-hang>select{width: 150px;
+        text-align: center;
+    padding: 5px 15px;}
+
+    /*  */
+    .xoa{
+        color:white;
+        background-color: rgb(255, 66, 78);
+        padding: 8px 12px;
+        outline: none;
+        border:none;
+        border-radius :5px;cursor: pointer;
+    }
+    .xoa:hover {
+        background-color: rgb(117, 3, 11);
+        color: #fff;
+    }
+    .color-red {color: rgb(255, 66, 78);
+    font-weight: 500;}
